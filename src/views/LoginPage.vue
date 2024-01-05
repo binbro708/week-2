@@ -1,7 +1,9 @@
 <template>
   <div class="container">
-    <div class="row justify-content-center">
-      <h1 class="h3 mb-3 font-weight-normal">請先登入</h1>
+    <div class="row justify-content-center mt-5">
+      <h1 class="h3 mb-3 font-weight-normal d-flex justify-content-center">
+        請先登入
+      </h1>
       <div class="col-8">
         <form id="form" class="form-signin">
           <div class="form-floating mb-3">
@@ -38,7 +40,9 @@
         </form>
       </div>
     </div>
-    <p class="mt-5 mb-3 text-muted">&copy; 2021~∞ - 六角學院</p>
+    <p class="mt-5 mb-3 text-muted d-flex justify-content-center">
+      &copy; 2021~∞ - 六角學院
+    </p>
   </div>
 </template>
 
