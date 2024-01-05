@@ -9,6 +9,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "/week-2/",
+  base: "/",
   plugins: [vue()],
 });
